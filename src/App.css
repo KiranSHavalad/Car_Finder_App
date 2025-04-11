@@ -1,0 +1,41 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  background-image: url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+}
+
+.app {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #1a237e;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+input, select {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #3f51b5;
+  box-shadow: 0 0 5px rgba(63, 81, 181, 0.5);
+}
